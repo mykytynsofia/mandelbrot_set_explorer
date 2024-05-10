@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+.explorer-container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.depth-color-table {
+    display: table;
+    border-collapse: collapse;
+}
+.depth-color-row {
+    display: table-row;
+}
+.depth-color-cell {
+    display: table-cell;
+    padding: 5px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.depth-color-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
